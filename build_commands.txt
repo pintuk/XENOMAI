@@ -1,0 +1,21 @@
+make ARCH=arm64 -j8 CROSS_COMPILE=aarch64-linux-gnu- bcmrpi3_defconfig
+make ARCH=arm64 -j8 CROSS_COMPILE=aarch64-linux-gnu- Image modules dtbs
+make ARCH=arm64 -j8 CROSS_COMPILE=aarch64-linux-gnu- INSTALL_MOD_PATH=../modules modules_install
+git clone https://git.xenomai.org/xenomai-3.git -b next
+./scripts/mkknlimg arch/arm64/boot/Image kernel7.img
+chmod +x kernel7.img
+scp kernel7.img pi@raspberrypi.local:/home/pi/PINTU/
+scp arch/arm64/boot/dts/broadcom/bcm2710-rpi-3-b.dtb pi@raspberrypi.local:/home/pi/PINTU/
+tar -czf modules.tar.gz modules
+scp modules.tar.gz pi@raspberrypi.local:/home/pi/PINTU/
+
+
+For 32-bit build:
+------------------
+make ARCH=arm -j8 CROSS_COMPILE=arm-linux-gnueabihf- bcm_rpi3b_arm32_defconfig
+make -j8 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs ; make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j8 INSTALL_MOD_PATH=../modules modules_install
+./scripts/mkknlimg arch/arm/boot/zImage kernel7.img
+scp kernel7.img pi@raspberrypi.local:/home/pi/PINTU/
+scp arch/arm/boot/dts/bcm2710-rpi-3-b.dtb pi@raspberrypi.local:/home/pi/PINTU/
+tar -czf modules.tar.gz modules
+scp modules.tar.gz pi@raspberrypi.local:/home/pi/PINTU/
