@@ -1,0 +1,1 @@
+arm-linux-gnueabihf-gcc -o ledswitch.out mainapp.c gpioutils.c led_control.c switch_control.c -lpthread -lrt
