@@ -1,0 +1,51 @@
+libboilerplate_la-time.lo: time.c /usr/include/stdc-predef.h \
+ ../../include/boilerplate/time.h \
+ /home/pi/PINTU/ROBOT/xenomai-3-robotics/include/cobalt/time.h \
+ /usr/include/time.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h \
+ /usr/include/arm-linux-gnueabihf/bits/timex.h /usr/include/xlocale.h \
+ ../../include/cobalt/wrappers.h ../../include/boilerplate/compiler.h \
+ ../../include/cobalt/uapi/time.h
+
+/usr/include/stdc-predef.h:
+
+../../include/boilerplate/time.h:
+
+/home/pi/PINTU/ROBOT/xenomai-3-robotics/include/cobalt/time.h:
+
+/usr/include/time.h:
+
+/usr/include/features.h:
+
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h:
+
+/usr/include/arm-linux-gnueabihf/bits/time.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types.h:
+
+/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
+
+/usr/include/arm-linux-gnueabihf/bits/timex.h:
+
+/usr/include/xlocale.h:
+
+../../include/cobalt/wrappers.h:
+
+../../include/boilerplate/compiler.h:
+
+../../include/cobalt/uapi/time.h:

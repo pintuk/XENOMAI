@@ -1,0 +1,214 @@
+libvxworks_la-lstLib.lo: lstLib.c /usr/include/stdc-predef.h \
+ ../../include/vxworks/errnoLib.h /usr/include/errno.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/arm-linux-gnueabihf/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ ../../include/vxworks/taskLib.h \
+ /home/pi/PINTU/ROBOT/xenomai-3-robotics/include/cobalt/pthread.h \
+ /usr/include/pthread.h /usr/include/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /home/pi/PINTU/ROBOT/xenomai-3-robotics/include/cobalt/sched.h \
+ /usr/include/sched.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /home/pi/PINTU/ROBOT/xenomai-3-robotics/include/cobalt/time.h \
+ /usr/include/time.h /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/bits/timex.h /usr/include/xlocale.h \
+ ../../include/cobalt/wrappers.h ../../include/boilerplate/compiler.h \
+ ../../include/cobalt/uapi/time.h \
+ /usr/include/arm-linux-gnueabihf/bits/sched.h \
+ /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /home/pi/PINTU/ROBOT/xenomai-3-robotics/include/cobalt/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ ../../include/cobalt/uapi/sched.h \
+ /usr/include/arm-linux-gnueabihf/bits/setjmp.h \
+ ../../include/boilerplate/libc.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ ../../include/xeno_config.h ../../include/cobalt/uapi/thread.h \
+ ../../include/cobalt/uapi/kernel/thread.h \
+ ../../include/cobalt/uapi/kernel/types.h /usr/include/linux/types.h \
+ /usr/include/arm-linux-gnueabihf/asm/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/include/arm-linux-gnueabihf/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/arm-linux-gnueabihf/asm/posix_types.h \
+ /usr/include/asm-generic/posix_types.h \
+ ../../include/cobalt/uapi/kernel/limits.h ../../include/vxworks/types.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ ../../include/vxworks/lstLib.h ../../include/boilerplate/list.h \
+ /usr/include/assert.h ../../include/boilerplate/scope.h \
+ ../../include/boilerplate/shared-list.h \
+ ../../include/boilerplate/private-list.h
+
+/usr/include/stdc-predef.h:
+
+../../include/vxworks/errnoLib.h:
+
+/usr/include/errno.h:
+
+/usr/include/features.h:
+
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h:
+
+/usr/include/arm-linux-gnueabihf/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/arm-linux-gnueabihf/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+../../include/vxworks/taskLib.h:
+
+/home/pi/PINTU/ROBOT/xenomai-3-robotics/include/cobalt/pthread.h:
+
+/usr/include/pthread.h:
+
+/usr/include/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/byteswap.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types.h:
+
+/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
+
+/usr/include/arm-linux-gnueabihf/bits/byteswap-16.h:
+
+/home/pi/PINTU/ROBOT/xenomai-3-robotics/include/cobalt/sched.h:
+
+/usr/include/sched.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h:
+
+/home/pi/PINTU/ROBOT/xenomai-3-robotics/include/cobalt/time.h:
+
+/usr/include/time.h:
+
+/usr/include/arm-linux-gnueabihf/bits/time.h:
+
+/usr/include/arm-linux-gnueabihf/bits/timex.h:
+
+/usr/include/xlocale.h:
+
+../../include/cobalt/wrappers.h:
+
+../../include/boilerplate/compiler.h:
+
+../../include/cobalt/uapi/time.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sched.h:
+
+/usr/include/arm-linux-gnueabihf/sys/types.h:
+
+/home/pi/PINTU/ROBOT/xenomai-3-robotics/include/cobalt/sys/select.h:
+
+/usr/include/arm-linux-gnueabihf/sys/select.h:
+
+/usr/include/arm-linux-gnueabihf/bits/select.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigset.h:
+
+/usr/include/arm-linux-gnueabihf/sys/sysmacros.h:
+
+/usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h:
+
+../../include/cobalt/uapi/sched.h:
+
+/usr/include/arm-linux-gnueabihf/bits/setjmp.h:
+
+../../include/boilerplate/libc.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/arm-linux-gnueabihf/bits/posix1_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/arm-linux-gnueabihf/bits/posix2_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/xopen_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
+
+../../include/xeno_config.h:
+
+../../include/cobalt/uapi/thread.h:
+
+../../include/cobalt/uapi/kernel/thread.h:
+
+../../include/cobalt/uapi/kernel/types.h:
+
+/usr/include/linux/types.h:
+
+/usr/include/arm-linux-gnueabihf/asm/types.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/arm-linux-gnueabihf/asm/bitsperlong.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/arm-linux-gnueabihf/asm/posix_types.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+../../include/cobalt/uapi/kernel/limits.h:
+
+../../include/vxworks/types.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wchar.h:
+
+../../include/vxworks/lstLib.h:
+
+../../include/boilerplate/list.h:
+
+/usr/include/assert.h:
+
+../../include/boilerplate/scope.h:
+
+../../include/boilerplate/shared-list.h:
+
+../../include/boilerplate/private-list.h:
